@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RemFitKaloriModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContextKey" Type="String" MaxLength="300" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Besinler">
+    <Key>
+      <PropertyRef Name="BesinID" />
+    </Key>
+    <Property Name="BesinID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BesinAdı" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Birimi" Type="Int32" Nullable="false" />
+    <Property Name="Kalori" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TüketildiğiÖğün" Relationship="Self.BesininTüketildiğiÖğün" FromRole="Besinler" ToRole="TüketildiğiÖğün" />
+  </EntityType>
+  <EntityType Name="Kullanıcılar">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KullanıcıTipi" Type="Int32" Nullable="false" />
+    <Property Name="Ad" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Soyadı" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EMail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DoğumTarihi" Type="DateTime" Precision="3" />
+    <Property Name="Cinsiyeti" Type="Int32" Nullable="false" />
+    <Property Name="Sifre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Kilo" Type="Double" Nullable="false" />
+    <Property Name="Boy" Type="Double" Nullable="false" />
+    <Property Name="KayıtTarihi" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="TüketildiğiÖğün" Relationship="Self.FK_dbo_TüketildiğiÖğün_dbo_Kullanıcılar_UserID_UserID" FromRole="Kullanıcılar" ToRole="TüketildiğiÖğün" />
+  </EntityType>
+  <EntityType Name="TüketildiğiÖğün">
+    <Key>
+      <PropertyRef Name="TüketilenBesinID" />
+    </Key>
+    <Property Name="TüketilenBesinID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TüketildiğiÖğün1" Type="Int32" Nullable="false" />
+    <Property Name="TükedildiğiTarih" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="BesinAdı" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BesinID" Type="Int32" Nullable="false" />
+    <Property Name="Miktarı" Type="Double" Nullable="false" />
+    <Property Name="Kalori" Type="Int32" Nullable="false" />
+    <Property Name="UserID_UserID" Type="Int32" />
+    <NavigationProperty Name="Kullanıcılar" Relationship="Self.FK_dbo_TüketildiğiÖğün_dbo_Kullanıcılar_UserID_UserID" FromRole="TüketildiğiÖğün" ToRole="Kullanıcılar" />
+    <NavigationProperty Name="Besinlers" Relationship="Self.BesininTüketildiğiÖğün" FromRole="TüketildiğiÖğün" ToRole="Besinler" />
+  </EntityType>
+  <Association Name="FK_dbo_TüketildiğiÖğün_dbo_Kullanıcılar_UserID_UserID">
+    <End Role="Kullanıcılar" Type="Self.Kullanıcılar" Multiplicity="0..1" />
+    <End Role="TüketildiğiÖğün" Type="Self.TüketildiğiÖğün" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanıcılar">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TüketildiğiÖğün">
+        <PropertyRef Name="UserID_UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BesininTüketildiğiÖğün">
+    <End Role="Besinler" Type="Self.Besinler" Multiplicity="*" />
+    <End Role="TüketildiğiÖğün" Type="Self.TüketildiğiÖğün" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="RemFitKaloriEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__MigrationHistory" EntityType="Self.C__MigrationHistory" />
+    <EntitySet Name="Besinlers" EntityType="Self.Besinler" />
+    <EntitySet Name="Kullanıcılar" EntityType="Self.Kullanıcılar" />
+    <EntitySet Name="TüketildiğiÖğün" EntityType="Self.TüketildiğiÖğün" />
+    <AssociationSet Name="FK_dbo_TüketildiğiÖğün_dbo_Kullanıcılar_UserID_UserID" Association="Self.FK_dbo_TüketildiğiÖğün_dbo_Kullanıcılar_UserID_UserID">
+      <End Role="Kullanıcılar" EntitySet="Kullanıcılar" />
+      <End Role="TüketildiğiÖğün" EntitySet="TüketildiğiÖğün" />
+    </AssociationSet>
+    <AssociationSet Name="BesininTüketildiğiÖğün" Association="Self.BesininTüketildiğiÖğün">
+      <End Role="Besinler" EntitySet="Besinlers" />
+      <End Role="TüketildiğiÖğün" EntitySet="TüketildiğiÖğün" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

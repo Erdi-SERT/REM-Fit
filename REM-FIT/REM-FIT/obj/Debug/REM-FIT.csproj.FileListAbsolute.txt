@@ -1,0 +1,15 @@
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\REM-FIT.exe.config
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\REM-FIT.exe
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\REM-FIT.pdb
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT.csproj.AssemblyReference.cache
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Form1.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Properties.Resources.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT.csproj.GenerateResource.cache
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT.csproj.CoreCompileInputs.cache
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT.exe
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT.pdb
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\EntityFramework.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\EntityFramework.xml
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT.csproj.CopyComplete

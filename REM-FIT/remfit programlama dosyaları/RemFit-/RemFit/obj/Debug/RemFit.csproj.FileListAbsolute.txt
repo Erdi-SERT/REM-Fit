@@ -1,0 +1,29 @@
+C:\Users\erdi\source\repos\RemFit-\RemFit\obj\Debug\RemFit.csproj.AssemblyReference.cache
+C:\Users\erdi\source\repos\RemFit-\RemFit\obj\Debug\RemFit.Form1.resources
+C:\Users\erdi\source\repos\RemFit-\RemFit\obj\Debug\RemFit.Properties.Resources.resources
+C:\Users\erdi\source\repos\RemFit-\RemFit\obj\Debug\RemFit.csproj.GenerateResource.cache
+C:\Users\erdi\source\repos\RemFit-\RemFit\obj\Debug\RemFit.csproj.CoreCompileInputs.cache
+C:\Users\erdi\source\repos\RemFit-\RemFit\bin\Debug\RemFit.exe.config
+C:\Users\erdi\source\repos\RemFit-\RemFit\bin\Debug\RemFit.exe
+C:\Users\erdi\source\repos\RemFit-\RemFit\bin\Debug\RemFit.pdb
+C:\Users\erdi\source\repos\RemFit-\RemFit\bin\Debug\EntityFramework.dll
+C:\Users\erdi\source\repos\RemFit-\RemFit\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\erdi\source\repos\RemFit-\RemFit\bin\Debug\EntityFramework.xml
+C:\Users\erdi\source\repos\RemFit-\RemFit\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\erdi\source\repos\RemFit-\RemFit\obj\Debug\RemFit.csproj.CopyComplete
+C:\Users\erdi\source\repos\RemFit-\RemFit\obj\Debug\RemFit.exe
+C:\Users\erdi\source\repos\RemFit-\RemFit\obj\Debug\RemFit.pdb
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\bin\Debug\RemFit.exe.config
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\bin\Debug\RemFit.exe
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\bin\Debug\RemFit.pdb
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\bin\Debug\EntityFramework.dll
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\bin\Debug\EntityFramework.xml
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\obj\Debug\RemFit.csproj.AssemblyReference.cache
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\obj\Debug\RemFit.Properties.Resources.resources
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\obj\Debug\RemFit.csproj.GenerateResource.cache
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\obj\Debug\RemFit.csproj.CoreCompileInputs.cache
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\obj\Debug\RemFit.csproj.CopyComplete
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\obj\Debug\RemFit.exe
+C:\Users\MRG\Desktop\remfit programlama dosyaları\RemFit-\RemFit\obj\Debug\RemFit.pdb

@@ -1,0 +1,47 @@
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\REM-FIT.exe.config
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\REM-FIT.exe
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\REM-FIT.pdb
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\Data.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\EntityFramework.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\Model.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\Data.pdb
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\Data.dll.config
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\Model.pdb
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\EntityFramework.xml
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT API.csproj.AssemblyReference.cache
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Form1.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Properties.Resources.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT API.csproj.GenerateResource.cache
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT API.csproj.CoreCompileInputs.cache
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT API.csproj.CopyComplete
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT.exe
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT.pdb
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.Form2.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.Form4.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmAksamYemegi.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.frmAraOgun.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmKahvalti.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmKaloriArama.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmKaloriTakipSayfasi.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmKiyasRaporu.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmOglenYemegi.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmRaporlar.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmSuTakibi.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmTarifler.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmUzmanaSor.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmYemekCesidi.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.Form3.resources
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM-FIT API.csproj.ResolveComReference.cache
+C:\Users\MRG\source\repos\REM-FIT\REM-FIT\obj\Debug\REM_FIT.Formlar.FrmKullaniciSozlesmesi.resources

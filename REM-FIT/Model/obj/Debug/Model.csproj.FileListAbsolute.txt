@@ -1,0 +1,22 @@
+C:\Users\MRG\source\repos\REM-FIT\Model\bin\Debug\Model.dll
+C:\Users\MRG\source\repos\REM-FIT\Model\bin\Debug\Model.pdb
+C:\Users\MRG\source\repos\REM-FIT\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\MRG\source\repos\REM-FIT\Model\obj\Debug\Model.dll
+C:\Users\MRG\source\repos\REM-FIT\Model\obj\Debug\Model.pdb
+C:\Users\MRG\source\repos\REM-FIT\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\MRG\source\repos\REM-FIT\Model\bin\Debug\CircularProgressBar.dll
+C:\Users\MRG\source\repos\REM-FIT\Model\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\MRG\source\repos\REM-FIT\Model\bin\Debug\WinFormAnimation.dll
+C:\Users\MRG\source\repos\REM-FIT\Model\bin\Debug\CircularProgressBar.xml
+C:\Users\MRG\source\repos\REM-FIT\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\bin\Debug\Model.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\bin\Debug\Model.pdb
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\bin\Debug\CircularProgressBar.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\bin\Debug\WinFormAnimation.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\bin\Debug\CircularProgressBar.xml
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\obj\Debug\Model.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Model\obj\Debug\Model.pdb

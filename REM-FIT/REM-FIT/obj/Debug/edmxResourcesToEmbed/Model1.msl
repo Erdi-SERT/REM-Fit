@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RemFitKaloriModelStoreContainer" CdmEntityContainer="RemFitKaloriEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="RemFitKaloriModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Besinlers">
+      <EntityTypeMapping TypeName="RemFitKaloriModel.Besinler">
+        <MappingFragment StoreEntitySet="Besinler">
+          <ScalarProperty Name="BesinID" ColumnName="BesinID" />
+          <ScalarProperty Name="BesinAdı" ColumnName="BesinAdı" />
+          <ScalarProperty Name="Birimi" ColumnName="Birimi" />
+          <ScalarProperty Name="Kalori" ColumnName="Kalori" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kullanıcılar">
+      <EntityTypeMapping TypeName="RemFitKaloriModel.Kullanıcılar">
+        <MappingFragment StoreEntitySet="Kullanıcılar">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="KullanıcıTipi" ColumnName="KullanıcıTipi" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+          <ScalarProperty Name="Soyadı" ColumnName="Soyadı" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="DoğumTarihi" ColumnName="DoğumTarihi" />
+          <ScalarProperty Name="Cinsiyeti" ColumnName="Cinsiyeti" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+          <ScalarProperty Name="Kilo" ColumnName="Kilo" />
+          <ScalarProperty Name="Boy" ColumnName="Boy" />
+          <ScalarProperty Name="KayıtTarihi" ColumnName="KayıtTarihi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TüketildiğiÖğün">
+      <EntityTypeMapping TypeName="RemFitKaloriModel.TüketildiğiÖğün">
+        <MappingFragment StoreEntitySet="TüketildiğiÖğün">
+          <ScalarProperty Name="TüketilenBesinID" ColumnName="TüketilenBesinID" />
+          <ScalarProperty Name="TüketildiğiÖğün1" ColumnName="TüketildiğiÖğün" />
+          <ScalarProperty Name="TükedildiğiTarih" ColumnName="TükedildiğiTarih" />
+          <ScalarProperty Name="BesinAdı" ColumnName="BesinAdı" />
+          <ScalarProperty Name="BesinID" ColumnName="BesinID" />
+          <ScalarProperty Name="Miktarı" ColumnName="Miktarı" />
+          <ScalarProperty Name="Kalori" ColumnName="Kalori" />
+          <ScalarProperty Name="UserID_UserID" ColumnName="UserID_UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="BesininTüketildiğiÖğün" TypeName="RemFitKaloriModel.BesininTüketildiğiÖğün" StoreEntitySet="BesininTüketildiğiÖğün">
+      <EndProperty Name="Besinler">
+        <ScalarProperty Name="BesinID" ColumnName="TüketilenID" />
+      </EndProperty>
+      <EndProperty Name="TüketildiğiÖğün">
+        <ScalarProperty Name="TüketilenBesinID" ColumnName="BesinID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

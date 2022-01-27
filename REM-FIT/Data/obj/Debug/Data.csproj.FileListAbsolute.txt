@@ -1,0 +1,36 @@
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\Data.dll.config
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\Data.dll
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\Data.pdb
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\EntityFramework.dll
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\Model.dll
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\Model.pdb
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\EntityFramework.xml
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\MRG\source\repos\REM-FIT\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\MRG\source\repos\REM-FIT\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\MRG\source\repos\REM-FIT\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\MRG\source\repos\REM-FIT\Data\obj\Debug\Data.dll
+C:\Users\MRG\source\repos\REM-FIT\Data\obj\Debug\Data.pdb
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\CircularProgressBar.dll
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\WinFormAnimation.dll
+C:\Users\MRG\source\repos\REM-FIT\Data\bin\Debug\CircularProgressBar.xml
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\Data.dll.config
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\Data.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\Data.pdb
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\CircularProgressBar.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\EntityFramework.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\Model.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\WinFormAnimation.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\Model.pdb
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\CircularProgressBar.xml
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\EntityFramework.xml
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\obj\Debug\Data.csproj.AssemblyReference.cache
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\obj\Debug\Data.dll
+C:\Users\erdi\source\Workspaces\REM-FİT KALORI HESAPLAMA PROGRAMI\REM-FIT\REM-FIT\Data\obj\Debug\Data.pdb

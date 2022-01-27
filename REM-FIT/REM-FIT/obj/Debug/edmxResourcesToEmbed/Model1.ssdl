@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RemFitKaloriModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="__MigrationHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+      <PropertyRef Name="ContextKey" />
+    </Key>
+    <Property Name="MigrationId" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="ContextKey" Type="nvarchar" MaxLength="300" Nullable="false" />
+    <Property Name="Model" Type="varbinary(max)" Nullable="false" />
+    <Property Name="ProductVersion" Type="nvarchar" MaxLength="32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BesininTüketildiğiÖğün">
+    <Key>
+      <PropertyRef Name="BesinID" />
+      <PropertyRef Name="TüketilenID" />
+    </Key>
+    <Property Name="BesinID" Type="int" Nullable="false" />
+    <Property Name="TüketilenID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Besinler">
+    <Key>
+      <PropertyRef Name="BesinID" />
+    </Key>
+    <Property Name="BesinID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BesinAdı" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Birimi" Type="int" Nullable="false" />
+    <Property Name="Kalori" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kullanıcılar">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KullanıcıTipi" Type="int" Nullable="false" />
+    <Property Name="Ad" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Soyadı" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="EMail" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DoğumTarihi" Type="datetime" />
+    <Property Name="Cinsiyeti" Type="int" Nullable="false" />
+    <Property Name="Sifre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Kilo" Type="float" Nullable="false" />
+    <Property Name="Boy" Type="float" Nullable="false" />
+    <Property Name="KayıtTarihi" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TüketildiğiÖğün">
+    <Key>
+      <PropertyRef Name="TüketilenBesinID" />
+    </Key>
+    <Property Name="TüketilenBesinID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TüketildiğiÖğün" Type="int" Nullable="false" />
+    <Property Name="TükedildiğiTarih" Type="datetime" Nullable="false" />
+    <Property Name="BesinAdı" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="BesinID" Type="int" Nullable="false" />
+    <Property Name="Miktarı" Type="float" Nullable="false" />
+    <Property Name="Kalori" Type="int" Nullable="false" />
+    <Property Name="UserID_UserID" Type="int" />
+  </EntityType>
+  <Association Name="FK_dbo_BesininTüketildiğiÖğün_dbo_Besinler_TüketilenID">
+    <End Role="Besinler" Type="Self.Besinler" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="BesininTüketildiğiÖğün" Type="Self.BesininTüketildiğiÖğün" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Besinler">
+        <PropertyRef Name="BesinID" />
+      </Principal>
+      <Dependent Role="BesininTüketildiğiÖğün">
+        <PropertyRef Name="TüketilenID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_BesininTüketildiğiÖğün_dbo_TüketildiğiÖğün_BesinID">
+    <End Role="TüketildiğiÖğün" Type="Self.TüketildiğiÖğün" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="BesininTüketildiğiÖğün" Type="Self.BesininTüketildiğiÖğün" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TüketildiğiÖğün">
+        <PropertyRef Name="TüketilenBesinID" />
+      </Principal>
+      <Dependent Role="BesininTüketildiğiÖğün">
+        <PropertyRef Name="BesinID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_TüketildiğiÖğün_dbo_Kullanıcılar_UserID_UserID">
+    <End Role="Kullanıcılar" Type="Self.Kullanıcılar" Multiplicity="0..1" />
+    <End Role="TüketildiğiÖğün" Type="Self.TüketildiğiÖğün" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanıcılar">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TüketildiğiÖğün">
+        <PropertyRef Name="UserID_UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RemFitKaloriModelStoreContainer">
+    <EntitySet Name="__MigrationHistory" EntityType="Self.__MigrationHistory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BesininTüketildiğiÖğün" EntityType="Self.BesininTüketildiğiÖğün" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Besinler" EntityType="Self.Besinler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kullanıcılar" EntityType="Self.Kullanıcılar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TüketildiğiÖğün" EntityType="Self.TüketildiğiÖğün" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_BesininTüketildiğiÖğün_dbo_Besinler_TüketilenID" Association="Self.FK_dbo_BesininTüketildiğiÖğün_dbo_Besinler_TüketilenID">
+      <End Role="Besinler" EntitySet="Besinler" />
+      <End Role="BesininTüketildiğiÖğün" EntitySet="BesininTüketildiğiÖğün" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_BesininTüketildiğiÖğün_dbo_TüketildiğiÖğün_BesinID" Association="Self.FK_dbo_BesininTüketildiğiÖğün_dbo_TüketildiğiÖğün_BesinID">
+      <End Role="TüketildiğiÖğün" EntitySet="TüketildiğiÖğün" />
+      <End Role="BesininTüketildiğiÖğün" EntitySet="BesininTüketildiğiÖğün" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_TüketildiğiÖğün_dbo_Kullanıcılar_UserID_UserID" Association="Self.FK_dbo_TüketildiğiÖğün_dbo_Kullanıcılar_UserID_UserID">
+      <End Role="Kullanıcılar" EntitySet="Kullanıcılar" />
+      <End Role="TüketildiğiÖğün" EntitySet="TüketildiğiÖğün" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
